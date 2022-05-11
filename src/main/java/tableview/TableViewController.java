@@ -30,7 +30,7 @@ public class TableViewController {
     private TableColumn<Country, String> capital;
 
     @FXML
-    private TableColumn<Country, Integer> population;
+    private TableColumn<Country, Long> population;
 
     @FXML
     private TableColumn<Country, Integer> numberOfTimezones;
